@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://matthieuscarset.github.io/">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://master--magnificent-caramel-9d8164.netlify.app/">
   <channel>
     <title>Calendar View - Demo site for the Drupal calendar_view module.</title>
-    <link>https://matthieuscarset.github.io/</link>
+    <link>https://master--magnificent-caramel-9d8164.netlify.app/</link>
     <description/>
     <language>en</language>
     
     <item>
   <title>Team building</title>
-  <link>https://matthieuscarset.github.io/node/734</link>
+  <link>https://master--magnificent-caramel-9d8164.netlify.app/node/734</link>
   <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Team building&lt;/span&gt;
-&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;a title="View user profile." href="https://matthieuscarset.github.io/drupal-calendar/user/1" class="username"&gt;admin&lt;/a&gt;&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;a title="View user profile." href="https://master--magnificent-caramel-9d8164.netlify.app/drupal-calendar/user/1" class="username"&gt;admin&lt;/a&gt;&lt;/span&gt;
 &lt;span class="field field--name-created field--type-created field--label-hidden"&gt;Tue, 01/31/2023 - 15:20&lt;/span&gt;
 
   &lt;div class="field field--name-field-dates field--type-smartdate field--label-above"&gt;
@@ -36,13 +36,13 @@
       </description>
   <pubDate>Tue, 31 Jan 2023 20:20:51 +0000</pubDate>
     <dc:creator>admin</dc:creator>
-    <guid isPermaLink="false">734 at https://matthieuscarset.github.io</guid>
+    <guid isPermaLink="false">734 at https://master--magnificent-caramel-9d8164.netlify.app</guid>
     </item>
 <item>
   <title>Sprint planning</title>
-  <link>https://matthieuscarset.github.io/node/733</link>
+  <link>https://master--magnificent-caramel-9d8164.netlify.app/node/733</link>
   <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Sprint planning&lt;/span&gt;
-&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;a title="View user profile." href="https://matthieuscarset.github.io/drupal-calendar/user/1" class="username"&gt;admin&lt;/a&gt;&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;a title="View user profile." href="https://master--magnificent-caramel-9d8164.netlify.app/drupal-calendar/user/1" class="username"&gt;admin&lt;/a&gt;&lt;/span&gt;
 &lt;span class="field field--name-created field--type-created field--label-hidden"&gt;Tue, 01/31/2023 - 15:19&lt;/span&gt;
 
   &lt;div class="field field--name-field-dates field--type-smartdate field--label-above"&gt;
@@ -73,13 +73,13 @@
       </description>
   <pubDate>Tue, 31 Jan 2023 20:19:07 +0000</pubDate>
     <dc:creator>admin</dc:creator>
-    <guid isPermaLink="false">733 at https://matthieuscarset.github.io</guid>
+    <guid isPermaLink="false">733 at https://master--magnificent-caramel-9d8164.netlify.app</guid>
     </item>
 <item>
   <title>Daily standup</title>
-  <link>https://matthieuscarset.github.io/node/732</link>
+  <link>https://master--magnificent-caramel-9d8164.netlify.app/node/732</link>
   <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Daily standup&lt;/span&gt;
-&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;a title="View user profile." href="https://matthieuscarset.github.io/drupal-calendar/user/1" class="username"&gt;admin&lt;/a&gt;&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;a title="View user profile." href="https://master--magnificent-caramel-9d8164.netlify.app/drupal-calendar/user/1" class="username"&gt;admin&lt;/a&gt;&lt;/span&gt;
 &lt;span class="field field--name-created field--type-created field--label-hidden"&gt;Tue, 01/31/2023 - 15:18&lt;/span&gt;
 
   &lt;div class="field field--name-field-dates field--type-smartdate field--label-above"&gt;
@@ -334,89 +334,89 @@
       </description>
   <pubDate>Tue, 31 Jan 2023 20:18:02 +0000</pubDate>
     <dc:creator>admin</dc:creator>
-    <guid isPermaLink="false">732 at https://matthieuscarset.github.io</guid>
+    <guid isPermaLink="false">732 at https://master--magnificent-caramel-9d8164.netlify.app</guid>
     </item>
 <item>
   <title>Article - Ideo In Iusto Ymo</title>
-  <link>https://matthieuscarset.github.io/node/575</link>
+  <link>https://master--magnificent-caramel-9d8164.netlify.app/node/575</link>
   <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Article - Ideo In Iusto Ymo&lt;/span&gt;
-&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;a title="View user profile." href="https://matthieuscarset.github.io/user/78" class="username"&gt;sarauokokec&lt;/a&gt;&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;a title="View user profile." href="https://master--magnificent-caramel-9d8164.netlify.app/user/78" class="username"&gt;sarauokokec&lt;/a&gt;&lt;/span&gt;
 &lt;span class="field field--name-created field--type-created field--label-hidden"&gt;Sun, 01/29/2023 - 15:54&lt;/span&gt;
 </description>
   <pubDate>Sun, 29 Jan 2023 20:54:24 +0000</pubDate>
     <dc:creator>sarauokokec</dc:creator>
-    <guid isPermaLink="false">575 at https://matthieuscarset.github.io</guid>
-    <comments>https://matthieuscarset.github.io/node/575#comments</comments>
+    <guid isPermaLink="false">575 at https://master--magnificent-caramel-9d8164.netlify.app</guid>
+    <comments>https://master--magnificent-caramel-9d8164.netlify.app/node/575#comments</comments>
     </item>
 <item>
   <title>Article - Interdico</title>
-  <link>https://matthieuscarset.github.io/node/658</link>
+  <link>https://master--magnificent-caramel-9d8164.netlify.app/node/658</link>
   <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Article - Interdico&lt;/span&gt;
-&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;a title="View user profile." href="https://matthieuscarset.github.io/drupal-calendar/user/139" class="username"&gt;rukutevigan&lt;/a&gt;&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;a title="View user profile." href="https://master--magnificent-caramel-9d8164.netlify.app/drupal-calendar/user/139" class="username"&gt;rukutevigan&lt;/a&gt;&lt;/span&gt;
 &lt;span class="field field--name-created field--type-created field--label-hidden"&gt;Sat, 01/21/2023 - 14:14&lt;/span&gt;
 </description>
   <pubDate>Sat, 21 Jan 2023 19:14:40 +0000</pubDate>
     <dc:creator>rukutevigan</dc:creator>
-    <guid isPermaLink="false">658 at https://matthieuscarset.github.io</guid>
+    <guid isPermaLink="false">658 at https://master--magnificent-caramel-9d8164.netlify.app</guid>
     </item>
 <item>
   <title>Article - Pneum Te</title>
-  <link>https://matthieuscarset.github.io/node/473</link>
+  <link>https://master--magnificent-caramel-9d8164.netlify.app/node/473</link>
   <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Article - Pneum Te&lt;/span&gt;
-&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;a title="View user profile." href="https://matthieuscarset.github.io/user/285" class="username"&gt;phouapripha&lt;/a&gt;&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;a title="View user profile." href="https://master--magnificent-caramel-9d8164.netlify.app/user/285" class="username"&gt;phouapripha&lt;/a&gt;&lt;/span&gt;
 &lt;span class="field field--name-created field--type-created field--label-hidden"&gt;Fri, 01/20/2023 - 17:40&lt;/span&gt;
 </description>
   <pubDate>Fri, 20 Jan 2023 22:40:02 +0000</pubDate>
     <dc:creator>phouapripha</dc:creator>
-    <guid isPermaLink="false">473 at https://matthieuscarset.github.io</guid>
-    <comments>https://matthieuscarset.github.io/node/473#comments</comments>
+    <guid isPermaLink="false">473 at https://master--magnificent-caramel-9d8164.netlify.app</guid>
+    <comments>https://master--magnificent-caramel-9d8164.netlify.app/node/473#comments</comments>
     </item>
 <item>
   <title>Article - Caecus</title>
-  <link>https://matthieuscarset.github.io/node/639</link>
+  <link>https://master--magnificent-caramel-9d8164.netlify.app/node/639</link>
   <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Article - Caecus&lt;/span&gt;
-&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;a title="View user profile." href="https://matthieuscarset.github.io/user/121" class="username"&gt;napegujish&lt;/a&gt;&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;a title="View user profile." href="https://master--magnificent-caramel-9d8164.netlify.app/user/121" class="username"&gt;napegujish&lt;/a&gt;&lt;/span&gt;
 &lt;span class="field field--name-created field--type-created field--label-hidden"&gt;Fri, 01/20/2023 - 17:33&lt;/span&gt;
 </description>
   <pubDate>Fri, 20 Jan 2023 22:33:31 +0000</pubDate>
     <dc:creator>napegujish</dc:creator>
-    <guid isPermaLink="false">639 at https://matthieuscarset.github.io</guid>
-    <comments>https://matthieuscarset.github.io/node/639#comments</comments>
+    <guid isPermaLink="false">639 at https://master--magnificent-caramel-9d8164.netlify.app</guid>
+    <comments>https://master--magnificent-caramel-9d8164.netlify.app/node/639#comments</comments>
     </item>
 <item>
   <title>Article - Caecus Causa</title>
-  <link>https://matthieuscarset.github.io/node/531</link>
+  <link>https://master--magnificent-caramel-9d8164.netlify.app/node/531</link>
   <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Article - Caecus Causa&lt;/span&gt;
-&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;a title="View user profile." href="https://matthieuscarset.github.io/drupal-calendar/user/122" class="username"&gt;swospesletr&lt;/a&gt;&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;a title="View user profile." href="https://master--magnificent-caramel-9d8164.netlify.app/drupal-calendar/user/122" class="username"&gt;swospesletr&lt;/a&gt;&lt;/span&gt;
 &lt;span class="field field--name-created field--type-created field--label-hidden"&gt;Fri, 01/20/2023 - 04:48&lt;/span&gt;
 </description>
   <pubDate>Fri, 20 Jan 2023 09:48:06 +0000</pubDate>
     <dc:creator>swospesletr</dc:creator>
-    <guid isPermaLink="false">531 at https://matthieuscarset.github.io</guid>
+    <guid isPermaLink="false">531 at https://master--magnificent-caramel-9d8164.netlify.app</guid>
     </item>
 <item>
   <title>Article - Hos</title>
-  <link>https://matthieuscarset.github.io/node/686</link>
+  <link>https://master--magnificent-caramel-9d8164.netlify.app/node/686</link>
   <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Article - Hos&lt;/span&gt;
-&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;a title="View user profile." href="https://matthieuscarset.github.io/user/123" class="username"&gt;hadospefr&lt;/a&gt;&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;a title="View user profile." href="https://master--magnificent-caramel-9d8164.netlify.app/user/123" class="username"&gt;hadospefr&lt;/a&gt;&lt;/span&gt;
 &lt;span class="field field--name-created field--type-created field--label-hidden"&gt;Tue, 01/17/2023 - 08:55&lt;/span&gt;
 </description>
   <pubDate>Tue, 17 Jan 2023 13:55:42 +0000</pubDate>
     <dc:creator>hadospefr</dc:creator>
-    <guid isPermaLink="false">686 at https://matthieuscarset.github.io</guid>
-    <comments>https://matthieuscarset.github.io/node/686#comments</comments>
+    <guid isPermaLink="false">686 at https://master--magnificent-caramel-9d8164.netlify.app</guid>
+    <comments>https://master--magnificent-caramel-9d8164.netlify.app/node/686#comments</comments>
     </item>
 <item>
   <title>Article - Diam Ibidem Jumentum</title>
-  <link>https://matthieuscarset.github.io/node/724</link>
+  <link>https://master--magnificent-caramel-9d8164.netlify.app/node/724</link>
   <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Article - Diam Ibidem Jumentum&lt;/span&gt;
-&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;a title="View user profile." href="https://matthieuscarset.github.io/user/316" class="username"&gt;stumerudro&lt;/a&gt;&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;a title="View user profile." href="https://master--magnificent-caramel-9d8164.netlify.app/user/316" class="username"&gt;stumerudro&lt;/a&gt;&lt;/span&gt;
 &lt;span class="field field--name-created field--type-created field--label-hidden"&gt;Fri, 01/13/2023 - 08:04&lt;/span&gt;
 </description>
   <pubDate>Fri, 13 Jan 2023 13:04:22 +0000</pubDate>
     <dc:creator>stumerudro</dc:creator>
-    <guid isPermaLink="false">724 at https://matthieuscarset.github.io</guid>
-    <comments>https://matthieuscarset.github.io/node/724#comments</comments>
+    <guid isPermaLink="false">724 at https://master--magnificent-caramel-9d8164.netlify.app</guid>
+    <comments>https://master--magnificent-caramel-9d8164.netlify.app/node/724#comments</comments>
     </item>
 
   </channel>
