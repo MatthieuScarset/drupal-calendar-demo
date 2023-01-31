@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Media calendar | Calendar View</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_jUPQZmnQBcJ0shndIHq45ItBu-szVACPhcb96aneCkQ.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_aff-lFJmNKdS2cUhEbGcfSGbj4UDSTfnY_NWhR5EoAA.css" />
+
+    <script src="/sites/default/files/js/js_-obZvqtqO2lRvZEZq_RZhbVtAIAOAnR9t09ZSoFsa-M.js"></script>
+
+  </head>
+  <body class="path-media-calendar">
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="page-wrapper dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+      <header class="content-header clearfix">
+    <div class="layout-container">
+      <div class="region region-breadcrumb">
+  <div id="block-claro-breadcrumbs" class="block block-system block-system-breadcrumb-block">
+  
+    
+        <nav class="breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
+    <h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
+    <ol class="breadcrumb__list">
+          <li class="breadcrumb__item">
+                  <a href="/" class="breadcrumb__link">Home</a>
+              </li>
+        </ol>
+  </nav>
+
+  </div>
+
+</div>
+
+        <div class="region region-header">
+    <div id="block-claro-page-title" class="block block-core block-page-title-block">
+  
+    
+      
+  <h1 class="page-title">Media calendar</h1>
+
+
+  </div>
+<nav role="navigation" aria-labelledby="block-claro-menu-menu" id="block-claro-menu" class="block block-menu navigation menu--main">
+            
+  <h2 class="visually-hidden" id="block-claro-menu-menu">Main navigation</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/drupal-calendar/" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+              </li>
+                <li class="menu-item menu-item--expanded menu-item--active-trail">
+        <span>Examples</span>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--active-trail">
+        <a href="/drupal-calendar/media-calendar" data-drupal-link-system-path="media-calendar" class="is-active">Media calendar</a>
+              </li>
+                <li class="menu-item">
+        <a href="/drupal-calendar/editorial-calendar" data-drupal-link-system-path="editorial-calendar">Editorial calendar</a>
+              </li>
+                <li class="menu-item">
+        <a href="/drupal-calendar/user-registration" data-drupal-link-system-path="user-registration">User registration</a>
+              </li>
+                <li class="menu-item">
+        <a href="/drupal-calendar/events-calendar" data-drupal-link-system-path="events-calendar">Events calendar</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+    </div>
+  </header>
+
+  <div class="layout-container">
+      <div class="region region-pre-content">
+    
+  </div>
+
+    <main class="page-content clearfix" role="main">
+      <div class="visually-hidden"><a id="main-content" tabindex="-1"></a></div>
+        <div class="region region-highlighted">
+    <div data-drupal-messages-fallback class="hidden messages-list"></div>
+
+  </div>
+
+              <div class="help">
+          
+        </div>
+              <div class="region region-content">
+    <div id="block-claro-content" class="block block-system block-system-main-block">
+  
+    
+      <div class="views-element-container"><div class="view view-media-calendar view-id-media_calendar view-display-id-page_1 js-view-dom-id-081eec27697290fed8ec10bcd50973bea1532bd01bb6e8a8438f63936ccea7e5">
+  
+    
+        <div class="view-filters">
+      <form class="views-exposed-form" aria-label="Filter the contents of the Media calendar view" data-drupal-selector="views-exposed-form-media-calendar-page-1" action="/media-calendar" method="get" id="views-exposed-form-media-calendar-page-1" accept-charset="UTF-8">
+  <div class="views-exposed-form__item js-form-item form-item js-form-type-textfield form-type--textfield js-form-item-name form-item--name">
+      <label for="edit-name" class="form-item__label">Name</label>
+        <input data-drupal-selector="edit-name" type="text" id="edit-name" name="name" value="" size="30" maxlength="128" class="form-text form-element form-element--type-text form-element--api-textfield"/>
+        </div>
+<div class="views-exposed-form__item js-form-item form-item js-form-type-textfield form-type--textfield js-form-item-created form-item--created">
+      <label for="edit-created" class="form-item__label">From</label>
+        <input data-drupal-selector="edit-created" type="text" id="edit-created" name="created" value="2023-01-01 00:00:00" size="30" maxlength="128" class="form-text form-element form-element--type-text form-element--api-textfield"/>
+        </div>
+<div class="views-exposed-form__item views-exposed-form__item--preceding-actions js-form-item form-item js-form-type-textfield form-type--textfield js-form-item-created-1 form-item--created-1">
+      <label for="edit-created-1" class="form-item__label">to</label>
+        <input data-drupal-selector="edit-created-1" type="text" id="edit-created-1" name="created_1" value="2023-02-01 00:00:00" size="30" maxlength="128" class="form-text form-element form-element--type-text form-element--api-textfield"/>
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions views-exposed-form__item views-exposed-form__item--actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit-media-calendar" type="submit" id="edit-submit-media-calendar" value="Apply" class="button js-form-submit form-submit"/></div>
+
+
+</form>
+
+    </div>
+    
+      <div class="view-content">
+        
+
+  
+  <table data-calendar-view-year="2023" data-calendar-view-month="01" class="calendar-view-table calendar-view-month responsive-enabled" data-striping="1">
+      <caption>January 2023</caption>
+  
+  
+      <thead>
+      <tr>
+                            <th>Monday</th>
+                            <th>Tuesday</th>
+                            <th>Wednesday</th>
+                            <th>Thursday</th>
+                            <th>Friday</th>
+                            <th>Saturday</th>
+                            <th>Sunday</th>
+              </tr>
+    </thead>
+  
+      <tbody>
+                      <tr class="odd">
+                      <td data-calendar-view-day="26" data-calendar-view-month="12" data-calendar-view-year="22" class="previous-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2022-12-26EST00:00:00" title="0 results for 2022-12-26">
+      26
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="27" data-calendar-view-month="12" data-calendar-view-year="22" class="previous-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2022-12-27EST00:00:00" title="0 results for 2022-12-27">
+      27
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="28" data-calendar-view-month="12" data-calendar-view-year="22" class="previous-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2022-12-28EST00:00:00" title="0 results for 2022-12-28">
+      28
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="29" data-calendar-view-month="12" data-calendar-view-year="22" class="previous-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2022-12-29EST00:00:00" title="0 results for 2022-12-29">
+      29
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="30" data-calendar-view-month="12" data-calendar-view-year="22" class="previous-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2022-12-30EST00:00:00" title="0 results for 2022-12-30">
+      30
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="31" data-calendar-view-month="12" data-calendar-view-year="22" class="previous-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2022-12-31EST00:00:00" title="0 results for 2022-12-31">
+      31
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="01" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-01EST00:00:00" title="0 results for 2023-01-01">
+      01
+    </time>
+	
+  	      
+          </div>
+</td>
+                  </tr>
+                      <tr class="even">
+                      <td data-calendar-view-day="02" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-02EST00:00:00" title="1 result for 2023-01-02">
+      02
+    </time>
+	
+  	            <ul class="calendar-view-day__rows">
+                                          <li class="calendar-view-day__row"><div class="views-field views-field-field-media-image"><div class="field-content">  <img loading="lazy" src="/drupal-calendar/sites/default/files/styles/medium/public/2023-01/DALL%C2%B7E%202023-01-31%2014.45.19.png?itok=SfqBHInh" width="220" height="220" alt="Calendar" class="image-style-medium" />
+
+
+</div></div><div class="views-field views-field-field-media-oembed-video"><div class="field-content"></div></div><div class="views-field views-field-name"><span class="field-content"><a href="/drupal-calendar/media/509/edit" hreflang="en">DALL·E 2023-01-31 14.45.19.png</a></span></div></li>
+                        </ul>
+    
+          </div>
+</td>
+                      <td data-calendar-view-day="03" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-03EST00:00:00" title="0 results for 2023-01-03">
+      03
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="04" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-04EST00:00:00" title="0 results for 2023-01-04">
+      04
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="05" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-05EST00:00:00" title="0 results for 2023-01-05">
+      05
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="06" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-06EST00:00:00" title="0 results for 2023-01-06">
+      06
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="07" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-07EST00:00:00" title="0 results for 2023-01-07">
+      07
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="08" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-08EST00:00:00" title="2 results for 2023-01-08">
+      08
+    </time>
+	
+  	            <ul class="calendar-view-day__rows">
+                                          <li class="calendar-view-day__row"><div class="views-field views-field-field-media-image"><div class="field-content"></div></div><div class="views-field views-field-field-media-oembed-video"><div class="field-content"><iframe src="/media/oembed/a2b087b6cebe61b4328578672b9a66b7" frameborder="0" allowtransparency width="200" height="113" class="media-oembed-content" title="Men I Trust | Radio 📻"></iframe>
+</div></div><div class="views-field views-field-name"><span class="field-content"><a href="/media/505/edit" hreflang="en">Men I Trust | Radio 📻</a></span></div></li>
+                                  <li class="calendar-view-day__row"><div class="views-field views-field-field-media-image"><div class="field-content"></div></div><div class="views-field views-field-field-media-oembed-video"><div class="field-content"><iframe src="/media/oembed/9da5a42b2ae1c136baf8ecc82be364e5" frameborder="0" allowtransparency width="200" height="150" class="media-oembed-content" title="Lonnie Liston Smith - Astral Traveling (1973)"></iframe>
+</div></div><div class="views-field views-field-name"><span class="field-content"><a href="/media/506/edit" hreflang="en">Lonnie Liston Smith - Astral Traveling (1973)</a></span></div></li>
+                        </ul>
+    
+          </div>
+</td>
+                  </tr>
+                      <tr class="odd">
+                      <td data-calendar-view-day="09" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-09EST00:00:00" title="0 results for 2023-01-09">
+      09
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="10" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-10EST00:00:00" title="0 results for 2023-01-10">
+      10
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="11" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-11EST00:00:00" title="0 results for 2023-01-11">
+      11
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="12" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-12EST00:00:00" title="1 result for 2023-01-12">
+      12
+    </time>
+	
+  	            <ul class="calendar-view-day__rows">
+                                          <li class="calendar-view-day__row"><div class="views-field views-field-field-media-image"><div class="field-content">  <img loading="lazy" src="/sites/default/files/styles/medium/public/2023-01/DALL%C2%B7E%202023-01-31%2014.40.24_0.png?itok=4sneq8YE" width="220" height="220" alt="Calendar" class="image-style-medium" />
+
+
+</div></div><div class="views-field views-field-field-media-oembed-video"><div class="field-content"></div></div><div class="views-field views-field-name"><span class="field-content"><a href="/media/508/edit" hreflang="en">DALL·E 2023-01-31 14.40.24_0.png</a></span></div></li>
+                        </ul>
+    
+          </div>
+</td>
+                      <td data-calendar-view-day="13" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-13EST00:00:00" title="1 result for 2023-01-13">
+      13
+    </time>
+	
+  	            <ul class="calendar-view-day__rows">
+                                          <li class="calendar-view-day__row"><div class="views-field views-field-field-media-image"><div class="field-content"></div></div><div class="views-field views-field-field-media-oembed-video"><div class="field-content"><iframe src="/media/oembed/30ed5f59d241b3021a3f6bf469fce4ac" frameborder="0" allowtransparency width="200" height="150" class="media-oembed-content" title="Lonnie Smith - Funk Reaction (Full Album) 1977"></iframe>
+</div></div><div class="views-field views-field-name"><span class="field-content"><a href="/media/507/edit" hreflang="en">Lonnie Smith - Funk Reaction (Full Album) 1977</a></span></div></li>
+                        </ul>
+    
+          </div>
+</td>
+                      <td data-calendar-view-day="14" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-14EST00:00:00" title="0 results for 2023-01-14">
+      14
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="15" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-15EST00:00:00" title="0 results for 2023-01-15">
+      15
+    </time>
+	
+  	      
+          </div>
+</td>
+                  </tr>
+                      <tr class="even">
+                      <td data-calendar-view-day="16" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-16EST00:00:00" title="0 results for 2023-01-16">
+      16
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="17" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-17EST00:00:00" title="1 result for 2023-01-17">
+      17
+    </time>
+	
+  	            <ul class="calendar-view-day__rows">
+                                          <li class="calendar-view-day__row"><div class="views-field views-field-field-media-image"><div class="field-content"></div></div><div class="views-field views-field-field-media-oembed-video"><div class="field-content"><iframe src="/media/oembed/00344a0294601f9c8ebbf9eb21819237" frameborder="0" allowtransparency width="200" height="113" class="media-oembed-content" title="KHRUANGBIN VIBES VOL.  9"></iframe>
+</div></div><div class="views-field views-field-name"><span class="field-content"><a href="/media/503/edit" hreflang="en">KHRUANGBIN VIBES VOL.  9</a></span></div></li>
+                        </ul>
+    
+          </div>
+</td>
+                      <td data-calendar-view-day="18" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-18EST00:00:00" title="0 results for 2023-01-18">
+      18
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="19" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-19EST00:00:00" title="0 results for 2023-01-19">
+      19
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="20" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-20EST00:00:00" title="1 result for 2023-01-20">
+      20
+    </time>
+	
+  	            <ul class="calendar-view-day__rows">
+                                          <li class="calendar-view-day__row"><div class="views-field views-field-field-media-image"><div class="field-content"></div></div><div class="views-field views-field-field-media-oembed-video"><div class="field-content"><iframe src="/media/oembed/010d5b3f57591ecc0ed55a5f49d7ff38" frameborder="0" allowtransparency width="200" height="113" class="media-oembed-content" title="KHRUANGBIN VIBES VOL. 12"></iframe>
+</div></div><div class="views-field views-field-name"><span class="field-content"><a href="/media/504/edit" hreflang="en">KHRUANGBIN VIBES VOL. 12</a></span></div></li>
+                        </ul>
+    
+          </div>
+</td>
+                      <td data-calendar-view-day="21" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-21EST00:00:00" title="0 results for 2023-01-21">
+      21
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="22" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-22EST00:00:00" title="0 results for 2023-01-22">
+      22
+    </time>
+	
+  	      
+          </div>
+</td>
+                  </tr>
+                      <tr class="odd">
+                      <td data-calendar-view-day="23" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-23EST00:00:00" title="0 results for 2023-01-23">
+      23
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="24" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-24EST00:00:00" title="0 results for 2023-01-24">
+      24
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="25" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-25EST00:00:00" title="0 results for 2023-01-25">
+      25
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="26" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-26EST00:00:00" title="0 results for 2023-01-26">
+      26
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="27" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-27EST00:00:00" title="0 results for 2023-01-27">
+      27
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="28" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-28EST00:00:00" title="0 results for 2023-01-28">
+      28
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="29" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-29EST00:00:00" title="0 results for 2023-01-29">
+      29
+    </time>
+	
+  	      
+          </div>
+</td>
+                  </tr>
+                      <tr class="even">
+                      <td data-calendar-view-day="30" data-calendar-view-month="01" data-calendar-view-year="23" class="current-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-30EST00:00:00" title="0 results for 2023-01-30">
+      30
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="31" data-calendar-view-month="01" data-calendar-view-year="23" data-calendar-today class="current-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-01-31EST00:00:00" title="0 results for 2023-01-31">
+      31
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="01" data-calendar-view-month="02" data-calendar-view-year="23" class="next-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-02-01EST00:00:00" title="0 results for 2023-02-01">
+      01
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="02" data-calendar-view-month="02" data-calendar-view-year="23" class="next-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-02-02EST00:00:00" title="0 results for 2023-02-02">
+      02
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="03" data-calendar-view-month="02" data-calendar-view-year="23" class="next-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-02-03EST00:00:00" title="0 results for 2023-02-03">
+      03
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="04" data-calendar-view-month="02" data-calendar-view-year="23" class="next-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-02-04EST00:00:00" title="0 results for 2023-02-04">
+      04
+    </time>
+	
+  	      
+          </div>
+</td>
+                      <td data-calendar-view-day="05" data-calendar-view-month="02" data-calendar-view-year="23" class="next-month">
+<div class="calendar-view-day empty">
+  
+  
+		    <time class="calendar-view-day__number" datetime="2023-02-05EST00:00:00" title="0 results for 2023-02-05">
+      05
+    </time>
+	
+  	      
+          </div>
+</td>
+                  </tr>
+          </tbody>
+    </table>
+
+
+  
+    </div>
+  
+      
+  <ul  class="pager__items js-pager__items calendar-view-pager">
+          <li class="pager__item pager__previous"><a href="?name=&amp;created=2023-01-01%2000%3A00%3A00&amp;created_1=2023-02-01%2000%3A00%3A00&amp;calendars%5B0%5D=202301&amp;previous=1669870800&amp;current=1672549200&amp;next=1675227600&amp;date_format=custom&amp;date_pattern=F&amp;display_reset=1&amp;calendar_timestamp=1669870800">December</a></li>
+          <li class="pager__item pager__current"><div class="js-form-item form-item js-form-type-item form-type--item js-form-item- form-item-- form-item--no-label">
+        January
+        </div>
+</li>
+          <li class="pager__item pager__next"><a href="?name=&amp;created=2023-01-01%2000%3A00%3A00&amp;created_1=2023-02-01%2000%3A00%3A00&amp;calendars%5B0%5D=202301&amp;previous=1669870800&amp;current=1672549200&amp;next=1675227600&amp;date_format=custom&amp;date_pattern=F&amp;display_reset=1&amp;calendar_timestamp=1675227600">February</a></li>
+      </ul>
+
+  
+          </div>
+</div>
+
+  </div>
+
+  </div>
+
+    </main>
+
+  </div>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"media-calendar","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"calendar_view\/calendar_view,claro\/global-styling,core\/drupal.message,core\/drupal.tableresponsive,core\/normalize,media\/oembed.formatter,system\/base,views\/views.ajax,views\/views.module","theme":"claro","theme_token":null},"ajaxTrustedUrl":{"\/media-calendar":true},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:081eec27697290fed8ec10bcd50973bea1532bd01bb6e8a8438f63936ccea7e5":{"view_name":"media_calendar","view_display_id":"page_1","view_args":"","view_path":"\/media-calendar","view_base_path":"media-calendar","view_dom_id":"081eec27697290fed8ec10bcd50973bea1532bd01bb6e8a8438f63936ccea7e5","pager_element":0}}},"user":{"uid":0,"permissionsHash":"208b4a0ecb53c4120bdc1f0424734a8fcdf5b9b5eed7ed7969f4a2b0080849b3"}}</script>
+<script src="/sites/default/files/js/js_BHexVeU09S1HoyonQ5V_Gv4QbvvkxnBYGYMmasjtB9Y.js"></script>
+
+  </body>
+</html>
